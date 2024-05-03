@@ -1,0 +1,49 @@
+[background-color="#02303a"]
+== Who are we?
+image::gradle/bg-1.png[background, size=cover]
+
+&#x1F9D1;&#x200D;&#x1F4BB; &#x1F9D1;&#x200D;&#x1F4BB;
+
+[%notitle]
+=== Sterling & Paul
+image::gradle/bg-1.png[background, size=cover]
+
+image::sterling_paul.jpg[width=40%]
+
+[cols="<.<5,<.<5",frame=none,grid=none]
+|===
+a|
+[source,kotlin]
+----
+​
+speaker {
+    name = "Paul Merlin"
+    company = "Gradle"
+    joined = 2015
+    currently = "Declarative Gradle"
+    previously = "Performance, Kotlin DSL, Configuration Cache"
+    github = "eskatos"
+    mastodon = "@eskatos@mastodon.social"
+}
+​
+----
+
+a|
+[source,kotlin]
+----
+​
+speaker {
+    name = "Sterling Greene"
+    company = "Gradle"
+    joined = TODO
+    currently = "Declarative Gradle"
+    previously = "TODO"
+    github = "big-guy"
+    mastodon = "TODO"
+}
+​
+----
+|===
+
+
+include::_3_who_gradle.adoc[]

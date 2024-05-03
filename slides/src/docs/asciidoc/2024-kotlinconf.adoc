@@ -1,0 +1,32 @@
+:source-highlighter: highlightjs
+:highlightjs-languages: java, groovy, kotlin, toml, json, xml, properties, shell
+:title-slide-background-image: gradle/intro.png
+:title-slide-background-size: cover
+:title-slide-background-color: #02303a
+:hide-uri-scheme:
+:linkattrs:
+
+= Developer-first Gradle builds
+
+Sterling Greene & Paul Merlin
+
+image::kotlinconf/logo-kotlinconf.png[width=100%, align="right"]
+
+
+include::chapters/_0_questions_kotlinconf.adoc[]
+
+include::chapters/_1_agenda_kotlinconf.adoc[]
+
+include::chapters/_2_who_kotlinconf.adoc[]
+
+include::chapters/_10_challenges.adoc[]
+
+include::chapters/_20_declarative_builds.adoc[]
+
+include::chapters/_30_developer_first_builds.adoc[]
+
+include::chapters/_40_whats_next_kotlinconf.adoc[]
+
+include::chapters/_90_closing.adoc[]
+
+include::chapters/_100_thank_you_kotlinconf.adoc[]

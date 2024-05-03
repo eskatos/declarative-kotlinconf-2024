@@ -1,0 +1,8 @@
+[versions]
+jvm = "17"
+
+[libraries]
+
+[bundles]
+
+[plugins]

@@ -1,0 +1,10 @@
+[background-color="#02303a"]
+== Challenges &#x1F525;
+image::gradle/bg-7.png[background, size=cover]
+
+Gradle is hard
+
+=== Challenges [.small]#- Demo#
+image::gradle/bg-7.png[background, size=cover]
+
+* TODO

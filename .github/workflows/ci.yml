@@ -1,0 +1,63 @@
+name: CI
+
+on:
+  pull_request:
+    paths-ignore:
+      - '.github/CODEOWNERS'
+      - 'README.md'
+      - 'LICENSE'
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions: {}
+
+jobs:
+
+  wrapper_validation:
+    name: "Wrapper Validation"
+    runs-on: ubuntu-latest
+    steps:
+
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Validate Wrapper
+        uses: gradle/wrapper-validation-action@v1
+
+  slides:
+    name: "Slides"
+    needs: wrapper_validation
+    runs-on: ubuntu-latest
+    steps:
+
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Prepare for build
+        uses: ./.github/actions/prepare-for-build
+
+      - name: Install graphviz
+        shell: bash
+        run: sudo apt-get install -y graphviz
+
+      - name: Build Slides
+        run: xvfb-run ./gradlew --stacktrace :slides:build
+
+      - name: Upload Slides HTML
+        uses: actions/upload-artifact@v3
+        with:
+          name: declarative-gradle-slides-html
+          path: slides/build/distributions/declarative-gradle-slides.zip
+          if-no-files-found: error
+
+      - name: Upload Slides PDF
+        uses: actions/upload-artifact@v3
+        with:
+          name: declarative-gradle-slides-pdf
+          path: slides/build/pdf/
+          if-no-files-found: error
+
+      - name: Validate no local changes
+        uses: ./.github/actions/no-local-changes

@@ -1,0 +1,27 @@
+:source-highlighter: highlightjs
+:highlightjs-languages: java, groovy, kotlin, toml, json, xml, properties, shell
+:title-slide-background-image: gradle/intro.png
+:title-slide-background-size: cover
+:title-slide-background-color: #02303a
+:hide-uri-scheme:
+:linkattrs:
+
+= Developer-first Gradle builds
+
+Gradle &#x2764; Kotlin
+
+image::logo-kotlin.svg[width=10%, align="right"]
+
+link:https://kotlinconf.com/[KotlinConf, window=_blank] [.small]#2023-04-14 +
+link:2024-kotlinconf.html[slides]
+-
+link:https://eskatos.github.io/declarative-kotlinconf-2024/2024-kotlinconf-declarative-gradle-slides.pdf[pdf, window=_blank]
+-
+link:https://youtu.be/88FJwx8Yf3o?t=18545[video, window=_blank]#
+
+== About
+
+[.small]
+--
+link:https://github.com/eskatos/declarative-kotlinconf-2024[sources, window=_blank]
+--

@@ -1,0 +1,10 @@
+[background-color="#02303a"]
+== What's next? &#x1F52E;
+image::gradle/bg-4.png[background, size=cover]
+
+A peak into the future
+
+=== What's next? [.small]#- Demo#
+image::gradle/bg-4.png[background, size=cover]
+
+TODO

@@ -1,0 +1,11 @@
+[background-color="#02303a"]
+== Declarative builds &#x1f4aa;
+image::gradle/bg-5.png[background, size=cover]
+
+Gradle can be nice
+
+
+=== Declarative builds [.small]#- Demo#
+image::gradle/bg-5.png[background, size=cover]
+
+TODO
