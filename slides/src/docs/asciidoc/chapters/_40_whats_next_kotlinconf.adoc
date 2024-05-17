@@ -15,10 +15,13 @@ Examples:
 
 * Update Gradle from 9.0 -> 9.1
 * Add Compose to this project
+* Upgrade an external dependency
 * Refactor this project to use non-deprecated properties
 
 === What's next? [.small]#- Sync resilience#
 image::gradle/bg-4.png[background, size=cover]
+
+Progressively provide more context instead of a monolithic sync step.
 
 Avoid slow recompilation of build scripts when build logic changes.
 
@@ -35,12 +38,14 @@ Some reusable conventions cross software type boundaries.
 
 For example, Compose can be used by KMP or Android.
 
-`build.gradle.dcl`
+`settings.gradle.dcl`
 ```kotlin
 conventions {
     compose {
         kotlinCompilerExtensionVersion = "1.5.12"
     }
+}
+softwareTypes {
     kmpLibrary {
         compose = conventions.compose
     }

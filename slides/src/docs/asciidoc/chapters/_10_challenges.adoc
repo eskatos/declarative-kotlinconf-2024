@@ -103,6 +103,18 @@ Gradle can look declarative.
 * Give your convention plugins meaningful names.
 * Keep your build scripts simple - condition and loop free.
 
+`build.gradle.kts`
+```kotlin
+plugins {
+    id("backend-library-conventions")
+}
+
+dependencies {
+    api(libs.commons.math3)
+    implementation(libs.guava)
+}
+```
+
 But this might not be enough.
 
 [background-color="#02303a"]
