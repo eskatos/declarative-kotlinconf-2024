@@ -1,8 +1,0 @@
-[background-color="#02303a"]
-== Agenda
-image::gradle/bg-8.png[background, size=cover]
-
-Challenges &#x1F525;:: Gradle is hard
-Declarative builds &#x1f4aa;:: Gradle can be nice
-Developer-first builds &#x1F39B;:: Gradle made easy
-What's next? &#x1F52E;:: A peak into the future

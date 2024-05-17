@@ -10,6 +10,8 @@ image::gradle/bg-1.png[background, size=cover]
 
 image::sterling_paul.jpg[width=40%]
 
+TODO: Picture!
+
 [cols="<.<5,<.<5",frame=none,grid=none]
 |===
 a|
@@ -45,5 +47,3 @@ speaker {
 ----
 |===
 
-
-include::_3_who_gradle.adoc[]

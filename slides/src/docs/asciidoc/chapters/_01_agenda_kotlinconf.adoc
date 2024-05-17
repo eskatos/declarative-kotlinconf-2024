@@ -1,0 +1,8 @@
+[background-color="#02303a"]
+== Agenda
+image::gradle/bg-8.png[background, size=cover]
+
+Challenges &#x1F525;:: Maintenance and understanding
+Developer first builds &#x1f4aa;:: Vision and current state
+Demos &#x1F39B;:: Don't say it, declare it
+What's next? &#x1F52E;:: A peak into the future

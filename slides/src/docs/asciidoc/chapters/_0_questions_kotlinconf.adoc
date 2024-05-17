@@ -1,7 +1,0 @@
-== Questions
-image::gradle/bg-1.png[background, size=cover]
-
-[%step]
-* Who has a complex build setup?
-* Who tried to script automate changing the build definition?
-* How many people would like to clicky-click in a UI to change a build?

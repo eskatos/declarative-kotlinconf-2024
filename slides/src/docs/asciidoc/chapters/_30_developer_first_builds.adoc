@@ -2,10 +2,55 @@
 == Developer-first builds &#x1F39B;
 image::gradle/bg-11.png[background, size=cover]
 
-Gradle made easy
+Vision and current state
 
+=== Developer-first builds [.small]#- Disclaimers#
+image::gradle/bg-11.png[background, size=cover]
 
-=== Developer-first builds [.small]#- Demo#
+* These are experiments.
+* Prototypes require a Gradle nightly.
+* IDE features require a Android Studio nightly.
+* Prototypes are changing all the time and are not ready for production use. 
+
+=== Developer-first builds [.small]#- Vision & tactical#
 image::gradle/bg-11.png[background, size=cover]
 
 TODO
+
+=== Developer-first builds [.small]#- Declarative Configuration Language#
+image::gradle/bg-11.png[background, size=cover]
+
+TODO
+
+=== Developer-first builds [.small]#- DCL Demo#
+image::gradle/bg-11.png[background, size=cover]
+
+TODO
+
+=== Current prototypes [.small]#- Software types#
+image::gradle/bg-7.png[background, size=cover]
+
+Support limited models for Kotlin (KMP), JVM (Kotlin, Java) & Android
+
+Reusable conventions for a software type in Declarative files
+
+=== Current prototypes [.small]#- Software types - Demo#
+image::gradle/bg-7.png[background, size=cover]
+
+TODO: Demo
+
+`settings.gradle.dcl`
+```kotlin
+kotlinJvmLibrary {
+    javaVersion = 21
+}
+```
+`build.gradle.dcl`
+```kotlin
+kotlinJvmLibrary {
+    dependencies {
+        ...
+    }
+}
+```
+

@@ -12,21 +12,23 @@ Sterling Greene & Paul Merlin
 
 image::kotlinconf/logo-kotlinconf.png[width=100%, align="right"]
 
+// TODO: include::chapters/_0_questions_kotlinconf.adoc[]
 
-include::chapters/_0_questions_kotlinconf.adoc[]
+include::chapters/_01_agenda_kotlinconf.adoc[]
 
-include::chapters/_1_agenda_kotlinconf.adoc[]
+include::chapters/_02_who_kotlinconf.adoc[]
 
-include::chapters/_2_who_kotlinconf.adoc[]
+include::chapters/_03_who_gradle.adoc[]
 
 include::chapters/_10_challenges.adoc[]
 
 include::chapters/_20_declarative_builds.adoc[]
+include::chapters/_21_questions.adoc[]
 
 include::chapters/_30_developer_first_builds.adoc[]
 
 include::chapters/_40_whats_next_kotlinconf.adoc[]
 
-include::chapters/_90_closing.adoc[]
+include::chapters/_50_where_we_go.adoc[]
 
-include::chapters/_100_thank_you_kotlinconf.adoc[]
+include::chapters/_99_thank_you_kotlinconf.adoc[]

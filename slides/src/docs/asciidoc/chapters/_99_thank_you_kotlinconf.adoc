@@ -4,4 +4,6 @@ image::kotlinconf/vote.png[background, size=cover]
 
 Don't forget to vote!
 
-image::gradle/folks.png[width=33%, align="left"]
+paul@gradle.com / eskatos
+
+sterling@gradle.com / big-guy

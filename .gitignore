@@ -18,3 +18,4 @@ applications/ios-app/ios_app.podspec
 .asciidoctor
 diag-*.png
 diag-*.svg
+.DS_Store
