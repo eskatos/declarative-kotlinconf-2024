@@ -35,11 +35,11 @@ a|
 speaker {
     name = "Sterling Greene"
     company = "Gradle"
-    joined = TODO
+    joined = 2014
     currently = "Declarative Gradle"
-    previously = "TODO"
+    previously = "JVM, Core, Native, Build Cache"
     github = "big-guy"
-    mastodon = "TODO"
+    x = "@argfile"
 }
 ​
 ----

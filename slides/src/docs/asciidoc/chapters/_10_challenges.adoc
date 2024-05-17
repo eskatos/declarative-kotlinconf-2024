@@ -2,9 +2,140 @@
 == Challenges &#x1F525;
 image::gradle/bg-7.png[background, size=cover]
 
-Gradle is hard
+Gradle is flexible and extensible.
 
-=== Challenges [.small]#- Demo#
+* It's easy for builds to speak "Gradle" and not your domain.
+* It's easy to make a mess.
+* It's hard for tools to update.
+
+=== Challenges [.small]#- Jeg taler Gradle#
 image::gradle/bg-7.png[background, size=cover]
 
-* TODO
+`build.gradle.kts`
+```kotlin
+plugins {
+    java
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation(libs.junit.jupiter)
+
+    testRuntimeOnly("org.junit.platform:junit-platform-launcher")
+
+    api(libs.commons.math3)
+
+    implementation(libs.guava)
+}
+
+tasks.named<Test>("test") {
+    useJUnitPlatform()
+}
+```
+
+=== Challenges [.small]#- &#x2622;#
+image::gradle/bg-7.png[background, size=cover]
+
+`build.gradle.kts`
+```kotlin
+plugins {
+    id("my-conventions")
+}
+
+apply {
+    from("dependencies.gradle.kts")
+}
+
+tasks.named<Test>("test") {
+    useJUnitPlatform()
+    jvmArgs "-Dsamples=${projectDir.absolutePath}/samples"
+}
+
+... 500 lines ...
+
+tasks.named<Test>("test") {
+    useJUnitPlatform {
+        includeTags("Fast")
+    }
+}
+```
+
+=== Challenges [.small]#- Gauntlet for toolability#
+image::gradle/bg-7.png[background, size=cover]
+
+`build.gradle.kts`
+```kotlin
+android {
+    namespace = "com.example.${project.name}"
+}
+
+dependencies {
+    testImplementation(libs.junit.jupiter)
+    testRuntimeOnly("org.junit.platform:junit-platform-launcher")    
+
+    api(libs.commons.math3)
+
+    if (!buildingForJava17()) {
+        implementation(libs.java17CompatibilityShim)
+    } 
+    
+    implementation(libs.guava)
+
+    listOf("foo", "bar").forEach { name ->
+        implementation("org:${name}:1.0")
+    }
+
+}
+
+fun buildingForJava17() = JavaVersion.current() == JavaVersion.VERSION_17
+```
+
+[background-color="#02303a"]
+== TODO: Today's solutions
+image::gradle/bg-7.png[background, size=cover]
+
+Gradle can look declarative.
+
+* Keep build logic in plugins.
+* Give your convention plugins meaningful names.
+* Keep your build scripts simple - condition and loop free.
+
+But this might not be enough.
+
+[background-color="#02303a"]
+== TODO: Current state of affairs
+image::gradle/bg-7.png[background, size=cover]
+
+TODO: Incorporate into proper place
+
+* These are experiments.
+* Prototypes are changing all the time and are not ready for production use. 
+* Prototypes usually require a Gradle nightly release.
+* Prototype IDE features tied to Android Studio nightlies.
+
+=== Current prototypes [.small]#- Software types#
+image::gradle/bg-7.png[background, size=cover]
+
+Support limited models for Kotlin (KMP), JVM (Kotlin, Java) & Android
+
+Reusable conventions for a software type in Declarative files
+
+TODO: Demo
+`settings.gradle.dcl`
+```kotlin
+kotlinJvmLibrary {
+    javaVersion = 21
+}
+```
+`build.gradle.dcl`
+```kotlin
+kotlinJvmLibrary {
+    dependencies {
+        ...
+    }
+}
+```
+

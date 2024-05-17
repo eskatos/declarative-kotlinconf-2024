@@ -4,7 +4,55 @@ image::gradle/bg-4.png[background, size=cover]
 
 A peak into the future
 
-=== What's next? [.small]#- Demo#
+=== What's next? [.small]#- Mutations#
 image::gradle/bg-4.png[background, size=cover]
 
-TODO
+Mutations are Gradle guided changes available from tooling and command-line.
+
+Provided out of the box by Gradle or registered by plugins.
+
+Examples:
+
+* Update Gradle from 9.0 -> 9.1
+* Add Compose to this project
+* Refactor this project to use non-deprecated properties
+
+=== What's next? [.small]#- Sync resilience#
+image::gradle/bg-4.png[background, size=cover]
+
+Avoid slow recompilation of build scripts when build logic changes.
+
+   * Reparsing declarative files is fast.
+
+Errors in a declarative file don't need to be fatal to sync.
+
+   * Best effort: know what "kind" of project it is at least.
+
+=== What's next? [.small]#- Software type composition#
+image::gradle/bg-4.png[background, size=cover]
+
+Some reusable conventions cross software type boundaries.
+
+For example, Compose can be used by KMP or Android.
+
+`build.gradle.dcl`
+```kotlin
+conventions {
+    compose {
+        kotlinCompilerExtensionVersion = "1.5.12"
+    }
+    kmpLibrary {
+        compose = conventions.compose
+    }
+    androidLibrary {
+        compose = conventions.compose
+    }
+}
+```
+
+=== What's next? [.small]#- Other things#
+image::gradle/bg-4.png[background, size=cover]
+
+Support for more ecosystems and languages.
+
+All features should work in major IDEs.
