@@ -1,10 +1,67 @@
 [background-color="#02303a"]
 == Developer-first builds &#x1F39B;
-image::gradle/bg-11.png[background, size=cover]
+
+image::gradle/bg-11.png[background,size=cover]
 
 Vision
 
-=== Developer-first builds [.small]#- Vision & tactical#
-image::gradle/bg-11.png[background, size=cover]
+=== Developer-first builds [.small]#- Vision#
 
-TODO
+image::gradle/bg-11.png[background,size=cover]
+
+> Elegant and extensible declarative build language that allows developers to describe any kind of software in a clear and understandable way.
+
+[%step]
+* Extensible, flexible ✅
+* Declarative 😞
+* Clear and understandable 😫
+
+
+=== Software Developers & Build Engineers
+
+image::gradle/bg-11.png[background,size=cover]
+
+[%step]
+* Software Developers - Majority in most teams
+** [.small]#Improve software by shipping features, fixing bugs ...#
+* Build Engineers - Frequent in larger teams
+** [.small]#Maintain the build, make developers productive#
+* 🎩 ↔ 🧢 - Frequent in smaller teams
+** [.small]#Who's the Gradle expert?#
+
+=== Software Definition vs Build Logic
+
+image::gradle/bg-11.png[background,size=cover]
+
+[%step]
+* Software Definition
+** _What_ needs to be built
+** Kind of software, languages, target platforms
+** Dependencies, toolchains, quality checks etc...
+* Build Logic
+** _How_ the software will be built
+** Adds new capabilities, integrate tools
+** Supplies convention to the software definition
+
+=== Software Definition vs Build Logic
+
+image::gradle/bg-11.png[background,size=cover]
+
+[%step]
+* Software Definition - _What_ needs to be built
+** Meant to be read and modified by Software Developers
+** Resides in settings and projects definitions
+* Build Logic - _How_ the software will be built
+** Meant to be read and modified by Build Engineers
+** Resides in plugins (local or external)
+
+
+=== Developer-first builds [.small]#- Tactics#
+
+image::gradle/bg-11.png[background,size=cover]
+
+[%step]
+* Separate software definition and build logic +
+  with a declarative DSL
+* Match the software definition to the software domain
+* Excellent Tooling and IDE Integration
