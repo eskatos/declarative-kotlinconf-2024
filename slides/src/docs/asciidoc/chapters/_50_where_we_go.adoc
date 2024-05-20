@@ -2,9 +2,9 @@
 == Where do we want to go?
 image::gradle/bg-4.png[background, size=cover]
 
-TODO repeat the vision
+🚀
 
-=== Where do we want to go? [.small]#- TODO#
+=== Where do we want to go? 🚀
 image::gradle/bg-4.png[background, size=cover]
 
-TODO
+TODO Repeat the vision

@@ -9,7 +9,12 @@ image::gradle/bg-11.png[background, size=cover]
 
 TODO
 
-=== Developer-first builds [.small]#- DCL Demo#
+=== Developer-first builds [.small]#- Tooling#
+image::gradle/bg-11.png[background, size=cover]
+
+TODO
+
+=== Developer-first builds [.small]#- Performance#
 image::gradle/bg-11.png[background, size=cover]
 
 TODO

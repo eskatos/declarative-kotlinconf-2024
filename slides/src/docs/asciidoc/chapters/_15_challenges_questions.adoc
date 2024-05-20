@@ -1,6 +1,6 @@
 
 [background-color="#02303a"]
-== Questions
+== Questions 🖐️
 image::gradle/bg-1.png[background, size=cover]
 
 [%step]

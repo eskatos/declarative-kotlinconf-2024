@@ -72,6 +72,8 @@ acceleration: build-cache, test distribution, predictive test selection etc..
 === Developer Productivity Engineering
 image::gradle/bg-1.png[background, size=cover]
 
+TODO: DPE University
+
 DPE is an emerging software practice that relies on acceleration technologies and data analysis to improve developer productivity.
 
 [cols="^.^2,^.^1",frame=none,grid=none]

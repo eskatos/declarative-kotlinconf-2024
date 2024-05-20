@@ -2,15 +2,17 @@
 == Overcoming challenges
 image::gradle/bg-7.png[background, size=cover]
 
-Gradle can look declarative.
+💪
 
 === Overcoming challenges [.small]#- Recommendations#
 image::gradle/bg-7.png[background, size=cover]
 
+Gradle can look declarative
+
 [%step]
-* Keep build logic in plugins.
-* Give your convention plugins meaningful names.
-* Keep your build scripts simple - condition and loop free.
+* Keep build logic in plugins
+* Give your convention plugins meaningful names
+* Keep your build scripts simple - condition and loop free
 
 === Overcoming challenges [.small]#- &#x1F389;#
 image::gradle/bg-7.png[background, size=cover]
