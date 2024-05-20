@@ -1,20 +1,61 @@
 [background-color="#02303a"]
 == Developer-first builds &#x1F39B;
-image::gradle/bg-11.png[background, size=cover]
+
+image::gradle/bg-11.png[background,size=cover]
 
 Current state
 
-=== Developer-first builds [.small]#- Declarative Configuration Language#
-image::gradle/bg-11.png[background, size=cover]
+=== Developer-first builds [.small]#- Teams#
 
-TODO
+image::gradle/bg-11.png[background,size=cover]
+
+We work on this together 🤝
+
+* Multiple teams at Gradle (DSL, Software, IDE)
+* Android Studio team at Google
+* IntelliJ, Kotlin & Amper teams at JetBrains
+
+=== Developer-first builds [.small]#- Disclaimers#
+
+image::gradle/bg-11.png[background,size=cover]
+
+* These are experiments.
+* Prototypes require a Gradle nightly.
+* IDE features require a Android Studio nightly.
+* Prototypes are changing all the time and are not ready for production use.
+
+=== Developer-first builds [.small]#- Declarative Configuration Language#
+
+image::gradle/bg-11.png[background,size=cover]
+
+[%step]
+* Purely declarative
+* Small subset of the Kotlin language
+* Fast and resilient parser
+* Schemas & Documents
 
 === Developer-first builds [.small]#- Tooling#
-image::gradle/bg-11.png[background, size=cover]
 
-TODO
+image::gradle/bg-11.png[background,size=cover]
+
+[%step]
+* Get projects schemas via Gradle's Tooling API
+** After build settings are evaluated
+** Before configuring any project
+* Load documents for project definitions
+** Validate using the schema
+** DOM-like API
+* This is data!
+** JSON Serialization
 
 === Developer-first builds [.small]#- Performance#
-image::gradle/bg-11.png[background, size=cover]
 
-TODO
+image::gradle/bg-11.png[background,size=cover]
+
+image:declarative-performance.png[]
+
+[.notes]
+--
+This is to be taken with a grain of salt because while we will make things slower by adding features and correctness, we have not optimized yet, and we know we can make things faster.
+This gives us a baseline and will help manage the Declarative DSL performance characteristics as we evolve the implementation.
+--
