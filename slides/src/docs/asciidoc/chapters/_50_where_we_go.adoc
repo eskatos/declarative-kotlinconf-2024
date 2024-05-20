@@ -1,10 +1,26 @@
 [background-color="#02303a"]
 == Where do we want to go?
-image::gradle/bg-4.png[background, size=cover]
+
+image::gradle/bg-4.png[background,size=cover]
 
 🚀
 
 === Where do we want to go? 🚀
-image::gradle/bg-4.png[background, size=cover]
 
-TODO Repeat the vision
+image::gradle/bg-4.png[background,size=cover]
+
+> Elegant and extensible declarative build language that allows developers to describe any kind of software in a clear and understandable way.
+
+and more ...
+
+[%step]
+* Pluggable mutations/refactorings
+* Excellent IDE support
+
+=== Transition
+
+[%step]
+* You can mix imperative and declarative in a build
+* Gradle imperative DSLs don't go away
+* Software-types will be usable from them
+* We are exploring ways and tooling for incremental migration

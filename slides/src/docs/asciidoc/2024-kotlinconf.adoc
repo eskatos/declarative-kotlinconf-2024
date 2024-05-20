@@ -42,4 +42,6 @@ include::chapters/_41_whats_next_continued.adoc[]
 
 include::chapters/_50_where_we_go.adoc[]
 
+include::chapters/_60_call_to_action.adoc[]
+
 include::chapters/_99_thank_you_kotlinconf.adoc[]

@@ -1,0 +1,12 @@
+[background-color="#02303a"]
+== Call to action
+
+image::gradle/bg-4.png[background,size=cover]
+
+🙌
+
+=== We need your help 🙌
+
+image::gradle/bg-4.png[background,size=cover]
+
+TODO Call to action
