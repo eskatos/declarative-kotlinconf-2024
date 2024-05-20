@@ -33,9 +33,7 @@ With 50M+ monthly downloads and one of the top 20 popular open source projects a
 === Develocity
 image::gradle/bg-1.png[background, size=cover]
 
-image::logo-develocity.svg[role=product-logo-as-title]
-
-TODO: logo broken
+image::logo-develocity-light.svg[role=product-logo-as-title]
 
 Develocity, commercial product, is the first Developer Productivity Engineering (DPE) integrated solution.
 
