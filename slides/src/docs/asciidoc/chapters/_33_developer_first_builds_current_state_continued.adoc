@@ -1,0 +1,28 @@
+
+=== Current prototypes [.small]#- Software types#
+image::gradle/bg-7.png[background, size=cover]
+
+Support limited models for Kotlin (KMP), JVM (Kotlin, Java) & Android
+
+Reusable conventions for a software type in Declarative files
+
+=== Current prototypes [.small]#- Software types - Demo#
+image::gradle/bg-7.png[background, size=cover]
+
+TODO: Demo
+
+`settings.gradle.dcl`
+```kotlin
+kotlinJvmLibrary {
+    javaVersion = 21
+}
+```
+`build.gradle.dcl`
+```kotlin
+kotlinJvmLibrary {
+    dependencies {
+        ...
+    }
+}
+```
+

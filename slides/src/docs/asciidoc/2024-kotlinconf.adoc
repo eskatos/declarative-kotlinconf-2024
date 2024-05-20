@@ -22,12 +22,23 @@ include::chapters/_03_who_gradle.adoc[]
 
 include::chapters/_10_challenges.adoc[]
 
+include::chapters/_15_challenges_questions.adoc[]
+
 include::chapters/_20_declarative_builds.adoc[]
-include::chapters/_21_questions.adoc[]
 
 include::chapters/_30_developer_first_builds.adoc[]
 
-include::chapters/_40_whats_next_kotlinconf.adoc[]
+include::chapters/_32_developer_first_builds_current_state.adoc[]
+
+include::chapters/_33_developer_first_builds_current_state_continued.adoc[]
+
+include::chapters/_34_demo.adoc[]
+
+include::chapters/_36_toolability_questions.adoc[]
+
+include::chapters/_40_whats_next.adoc[]
+
+include::chapters/_41_whats_next_continued.adoc[]
 
 include::chapters/_50_where_we_go.adoc[]
 

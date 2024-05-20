@@ -1,0 +1,15 @@
+[background-color="#02303a"]
+== Developer-first builds &#x1F39B;
+image::gradle/bg-11.png[background, size=cover]
+
+Current state
+
+=== Developer-first builds [.small]#- Declarative Configuration Language#
+image::gradle/bg-11.png[background, size=cover]
+
+TODO
+
+=== Developer-first builds [.small]#- DCL Demo#
+image::gradle/bg-11.png[background, size=cover]
+
+TODO

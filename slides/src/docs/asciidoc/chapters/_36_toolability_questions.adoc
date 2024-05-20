@@ -3,6 +3,5 @@
 image::gradle/bg-1.png[background, size=cover]
 
 [%step]
-* Who has seen a complex build?
 * Who has tried to automate changing the build definition?
-* How many people would like to clicky-click in a UI to change something in the build?
+* Who would like to clicky-click in a UI to understand a build and change it?

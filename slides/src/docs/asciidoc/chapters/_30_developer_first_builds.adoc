@@ -2,7 +2,7 @@
 == Developer-first builds &#x1F39B;
 image::gradle/bg-11.png[background, size=cover]
 
-Vision and current state
+Vision
 
 === Developer-first builds [.small]#- Disclaimers#
 image::gradle/bg-11.png[background, size=cover]
@@ -16,41 +16,3 @@ image::gradle/bg-11.png[background, size=cover]
 image::gradle/bg-11.png[background, size=cover]
 
 TODO
-
-=== Developer-first builds [.small]#- Declarative Configuration Language#
-image::gradle/bg-11.png[background, size=cover]
-
-TODO
-
-=== Developer-first builds [.small]#- DCL Demo#
-image::gradle/bg-11.png[background, size=cover]
-
-TODO
-
-=== Current prototypes [.small]#- Software types#
-image::gradle/bg-7.png[background, size=cover]
-
-Support limited models for Kotlin (KMP), JVM (Kotlin, Java) & Android
-
-Reusable conventions for a software type in Declarative files
-
-=== Current prototypes [.small]#- Software types - Demo#
-image::gradle/bg-7.png[background, size=cover]
-
-TODO: Demo
-
-`settings.gradle.dcl`
-```kotlin
-kotlinJvmLibrary {
-    javaVersion = 21
-}
-```
-`build.gradle.dcl`
-```kotlin
-kotlinJvmLibrary {
-    dependencies {
-        ...
-    }
-}
-```
-

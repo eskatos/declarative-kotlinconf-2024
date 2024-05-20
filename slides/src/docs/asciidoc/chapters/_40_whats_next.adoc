@@ -30,34 +30,3 @@ Avoid slow recompilation of build scripts when build logic changes.
 Errors in a declarative file don't need to be fatal to sync.
 
    * Best effort: know what "kind" of project it is at least.
-
-=== What's next? [.small]#- Software type composition#
-image::gradle/bg-4.png[background, size=cover]
-
-Some reusable conventions cross software type boundaries.
-
-For example, Compose can be used by KMP or Android.
-
-`settings.gradle.dcl`
-```kotlin
-conventions {
-    compose {
-        kotlinCompilerExtensionVersion = "1.5.12"
-    }
-}
-softwareTypes {
-    kmpLibrary {
-        compose = conventions.compose
-    }
-    androidLibrary {
-        compose = conventions.compose
-    }
-}
-```
-
-=== What's next? [.small]#- Other things#
-image::gradle/bg-4.png[background, size=cover]
-
-Support for more ecosystems and languages.
-
-All features should work in major IDEs.
