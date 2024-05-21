@@ -11,39 +11,3 @@ image::gradle/bg-1.png[background, size=cover]
 image::sterling_paul.jpg[width=40%]
 
 TODO: Picture!
-
-[cols="<.<5,<.<5",frame=none,grid=none]
-|===
-a|
-[source,kotlin]
-----
-​
-speaker {
-    name = "Paul Merlin"
-    company = "Gradle"
-    joined = 2015
-    currently = "Declarative Gradle"
-    previously = "Performance, Kotlin DSL, Configuration Cache"
-    github = "eskatos"
-    mastodon = "@eskatos@mastodon.social"
-}
-​
-----
-
-a|
-[source,kotlin]
-----
-​
-speaker {
-    name = "Sterling Greene"
-    company = "Gradle"
-    joined = 2014
-    currently = "Declarative Gradle"
-    previously = "JVM, Core, Native, Build Cache"
-    github = "big-guy"
-    x = "@argfile"
-}
-​
-----
-|===
-
