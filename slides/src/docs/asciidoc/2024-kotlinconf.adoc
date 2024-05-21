@@ -12,8 +12,6 @@ Sterling Greene & Paul Merlin
 
 image::kotlinconf/logo-kotlinconf.png[width=100%, align="right"]
 
-// TODO: include::chapters/_0_questions_kotlinconf.adoc[]
-
 include::chapters/_01_agenda_kotlinconf.adoc[]
 
 include::chapters/_02_who_kotlinconf.adoc[]
