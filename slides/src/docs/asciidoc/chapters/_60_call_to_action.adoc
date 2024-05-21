@@ -10,5 +10,6 @@ image::gradle/bg-4.png[background,size=cover]
 image::gradle/bg-4.png[background,size=cover]
 
 * Take a look at the prototypes
-* Join Gradle's Community Slack `#declarative-gradle`
-* Share your thoughts and use cases
+* Join Gradle's Community Slack +
+  [.small]#`#declarative-gradle`#
+* Share your thoughts and use cases with us

@@ -2,12 +2,14 @@
 == Challenges &#x1F525;
 image::gradle/bg-7.png[background, size=cover]
 
-Gradle is flexible and extensible.
+Gradle is flexible and extensible +
+Drawbacks
 
 === Challenges &#x1F525;
 image::gradle/bg-7.png[background, size=cover]
 
-Gradle is flexible and extensible.
+Gradle is flexible and extensible +
+Drawbacks
 
 * It's easy for builds to speak Gradle and not your domain.
 * It's easy to make a mess.

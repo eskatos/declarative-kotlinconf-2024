@@ -1,32 +1,38 @@
 [background-color="#02303a"]
 == What's next? &#x1F52E;
-image::gradle/bg-4.png[background, size=cover]
+
+image::gradle/bg-4.png[background,size=cover]
 
 A peak into the future
 
-=== What's next? [.small]#- Mutations#
-image::gradle/bg-4.png[background, size=cover]
+=== What's next? [.small]#- Mutations / Refactorings#
 
-Mutations are Gradle guided changes available from tooling and command-line.
+image::gradle/bg-4.png[background,size=cover]
 
-Provided out of the box by Gradle or registered by plugins.
+[%step]
+* Gradle guided changes available from tooling and command-line
+* Integrated with IDE workflow (preview/diff, undo)
+* Provided out of the box by Gradle or registered by plugins
 
-Examples:
+=== What's next? [.small]#- Mutations / Refactorings#
 
-* Update Gradle from 9.0 -> 9.1
-* Add Compose to this project
+image::gradle/bg-4.png[background,size=cover]
+
+Examples
+
 * Upgrade an external dependency
+* Add Compose to this project
+* Update Gradle from 9.0 -> 9.1
 * Refactor this project to use non-deprecated properties
 
-=== What's next? [.small]#- Sync resilience#
-image::gradle/bg-4.png[background, size=cover]
+=== What's next? [.small]#- Quick and resilient IDE sync#
 
-Progressively provide more context instead of a monolithic sync step.
+image::gradle/bg-4.png[background,size=cover]
 
-Avoid slow recompilation of build scripts when build logic changes.
-
-   * Reparsing declarative files is fast.
-
-Errors in a declarative file don't need to be fatal to sync.
-
-   * Best effort: know what "kind" of project it is at least.
+[%step]
+* Progressively provide more context +
+  instead of a monolithic sync step.
+* Avoid slow recompilation of build scripts when build logic changes. +
+  Reparsing declarative files is fast.
+* Errors in a declarative file don't need to be fatal to sync +
+  Best effort: know what "kind" of project it is at least.
