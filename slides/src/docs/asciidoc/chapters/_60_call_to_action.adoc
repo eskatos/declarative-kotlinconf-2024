@@ -5,11 +5,33 @@ image::gradle/bg-4.png[background,size=cover]
 
 🙌
 
-=== We need your help 🙌
+=== Learn More 📖
+
+image::gradle/bg-4.png[background,size=cover]
+
+* Declarative Gradle site: https://declarative.gradle.org/[declarative.gradle.org]
+** https://declarative.gradle.org/docs/getting-started/[Getting Started]
+** https://declarative.gradle.org/docs/kotlin/[Declarative Gradle for Kotlin]
+** https://declarative.gradle.org/docs/android/[Declarative Gradle for Android]
+* GitHub Repository: https://github.com/gradle/declarative-gradle[gradle/declarative-gradle]
+* Public Roadmap: https://github.com/gradle/declarative-gradle[DRAFT]
+
+=== We need your help and feedback 🙌
 
 image::gradle/bg-4.png[background,size=cover]
 
 * Take a look at the prototypes
-* Join Gradle's Community Slack +
+* Join Gradle's https://gradle.org/slack-invite[Community Slack] +
   [.small]#`#declarative-gradle`#
 * Share your thoughts and use cases with us
+
+More info: https://declarative.gradle.org/docs/CONTRIBUTING/[Contributor Guide]
+
+=== NEW: DPE University 🎓
+
+image::gradle/bg-4.png[background,size=cover]
+
+* Free Gradle courses: https://dpeuniversity.gradle.com/app[dpeuniversity.gradle.com]
+* 6 Gradle courses: from Beginner to Advanced levels
+
+image::dpeu/cover.png[]
