@@ -20,7 +20,7 @@ image::gradle/bg-4.png[background,size=cover]
 
 image::gradle/bg-4.png[background,size=cover]
 
-* Take a look at the prototypes
+* Visit link:https://declarative.gradle.org[declarative.gradle.org]
 * Join Gradle's https://gradle.org/slack-invite[Community Slack] +
   [.small]#`#declarative-gradle`#
 * Share your thoughts and use cases with us

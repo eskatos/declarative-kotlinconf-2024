@@ -2,26 +2,30 @@
 === Current prototypes [.small]#- Software types#
 image::gradle/bg-7.png[background, size=cover]
 
-Support limited models for Kotlin (KMP), JVM (Kotlin, Java) & Android
-
-Reusable conventions for a software type in Declarative files
+* Limited models for Kotlin (KMP), JVM (Kotlin, Java) & Android
+* Wraps around existing plugins 
+* Reusable conventions support sharing common configuration 
+   - Properties
+   - Dependencies
 
 === Current prototypes [.small]#- Software types - Demo#
 image::gradle/bg-7.png[background, size=cover]
 
-TODO: Demo
-
 `settings.gradle.dcl`
 ```kotlin
-kotlinJvmLibrary {
-    javaVersion = 21
+conventions {
+    kotlinJvmLibrary {
+        javaVersion = 21
+    }
 }
 ```
 `build.gradle.dcl`
 ```kotlin
 kotlinJvmLibrary {
+    // javaVersion comes from convention
+
     dependencies {
-        ...
+        api(project(":core:common"))
     }
 }
 ```

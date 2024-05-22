@@ -109,13 +109,11 @@ How Netflix, Google, Slack, LinkedIn and other teams do DPE?
 === Build Scan®
 image::gradle/bg-1.png[background, size=cover]
 
-TODO: Update screenshot
-
 A permanent record of what happens during a build.
 
 image::buildscan-example.png[]
 
-image:build-scan-link.svg[link=https://scans.gradle.com/s/rcqiowuogd2xu]
+image:build-scan-link.svg[link=https://ge.gradle.org/s/5tpk266tnimuo]
 
 [.notes]
 --
