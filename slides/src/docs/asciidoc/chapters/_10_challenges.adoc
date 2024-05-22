@@ -48,6 +48,14 @@ tasks.named<Test>("test") {
 }
 ```
 
+[.notes]
+--
+I'm building a Java what?
+What's a repository?
+What's a task?
+I'm using JUnit5, I guess that's like JUnit platform?
+--
+
 === Challenges [.small]#- &#x2622;#
 image::gradle/bg-7.png[background, size=cover]
 
@@ -74,6 +82,12 @@ tasks.named<Test>("test") {
     }
 }
 ```
+
+[.notes]
+--
+Where does anything come from?
+Footguns
+--
 
 === Challenges [.small]#- Gauntlet for toolability#
 image::gradle/bg-7.png[background, size=cover]
@@ -104,3 +118,8 @@ dependencies {
 
 fun buildingForJava17() = JavaVersion.current() == JavaVersion.VERSION_17
 ```
+
+[.notes]
+--
+Very hard for tooling to modify or provide assistance
+--

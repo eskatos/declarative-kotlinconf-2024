@@ -42,3 +42,7 @@ kotlinJvmLibrary {
 }
 ```
 
+[.notes]
+--
+Switch to IDE with NiA
+--
