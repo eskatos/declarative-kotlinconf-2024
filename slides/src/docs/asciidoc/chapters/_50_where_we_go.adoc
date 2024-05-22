@@ -26,11 +26,15 @@ and more ...
 
 === Roadmap [.small]#- Highly speculative#
 
-* First EAP before summer
-* 2024-H2
-** Alphas towards the end of the year
+* First EAP this summer
+** Demonstrating what we just talked about
 ** Early ecosystem plugins integrator feedback
-* 2024-EOY
-** Declarative Configuration Language Beta
-** Software Types support Beta
+
+* 2024-H2
+** More EAPs towards the end of the year
 ** Early software developers adopters feedback
+
+* 2024-EOY
+** Declarative Configuration Language Alpha
+** Software Types support Alpha
+** Continued feedback
