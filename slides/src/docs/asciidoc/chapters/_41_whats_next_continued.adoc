@@ -1,8 +1,31 @@
-
-=== What's next? [.small]#- Software type composition#
+=== What's next? [.small]#- Defining new Software types#
 image::gradle/bg-4.png[background, size=cover]
 
-TODO
+* Multiple conventions for the same software type
+* Restricted configurability for a software type
+* Entirely new software types/ecosystems
+
+=== What's next? [.small]#- Multiple Software type conventions#
+image::gradle/bg-4.png[background, size=cover]
+
+For example, a build with two different KMP libraries.
+
+`settings.gradle.dcl`
+```kotlin
+softwareTypes {
+    legacyLibrary {
+        ...
+    }
+    nextGenerationLibrary {
+        compose {
+            ...
+        }
+    }
+}
+```
+
+=== What's next? [.small]#- Software type conventions#
+image::gradle/bg-4.png[background, size=cover]
 
 Some reusable conventions cross software type boundaries.
 
@@ -24,8 +47,3 @@ softwareTypes {
     }
 }
 ```
-
-=== What's next? [.small]#- Other ecosystems#
-image::gradle/bg-4.png[background, size=cover]
-
-TODO: 

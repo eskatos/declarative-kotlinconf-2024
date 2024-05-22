@@ -1,12 +1,20 @@
 
-=== Current prototypes [.small]#- Software types#
+=== Current prototypes [.small]#- Software definition#
 image::gradle/bg-7.png[background, size=cover]
 
-* Limited models for Kotlin (KMP), JVM (Kotlin, Java) & Android
+* Software types for Kotlin (KMP), JVM (Kotlin, Java) & Android
+   - Software type is a high level model for the ecosystem
 * Wraps around existing plugins 
+* Limited configurability just to explore/experiment
+* No plugin application in project DCL files
+
+=== Current prototypes [.small]#- Reusable conventions#
+image::gradle/bg-7.png[background, size=cover]
+
 * Reusable conventions support sharing common configuration 
    - Properties
    - Dependencies
+* Declared at the top-level settings DCL file
 
 === Current prototypes [.small]#- Software types - Demo#
 image::gradle/bg-7.png[background, size=cover]
