@@ -69,10 +69,23 @@ acceleration: build-cache, test distribution, predictive test selection etc..
 --
 
 
-=== Developer Productivity Engineering
+=== Build Scan®
 image::gradle/bg-1.png[background, size=cover]
 
-TODO: DPE University
+A permanent record of what happens during a build.
+
+image::buildscan-example.png[]
+
+image:build-scan-link.svg[link=https://ge.gradle.org/s/5tpk266tnimuo]
+
+[.notes]
+--
+We will use build scans during this task to illustrate some points.
+--
+
+
+=== Developer Productivity Engineering
+image::gradle/bg-1.png[background, size=cover]
 
 DPE is an emerging software practice that relies on acceleration technologies and data analysis to improve developer productivity.
 
@@ -85,7 +98,7 @@ https://gradle.com/developer-productivity-engineering
 a|image::dpe-summit.webp[]
 
 [.small]
-https://dpesummit.com
+https://dpe.org
 
 image::dpe-showdown.jpeg[]
 
@@ -106,17 +119,12 @@ Two shows
 How Netflix, Google, Slack, LinkedIn and other teams do DPE?
 --
 
-=== Build Scan®
-image::gradle/bg-1.png[background, size=cover]
+=== NEW: DPE University 🎓
 
-A permanent record of what happens during a build.
+image::gradle/bg-4.png[background,size=cover]
 
-image::buildscan-example.png[]
+image::dpeu/cover.png[width=60%]
 
-image:build-scan-link.svg[link=https://ge.gradle.org/s/5tpk266tnimuo]
-
-[.notes]
---
-We will use build scans during this task to illustrate some points.
---
-
+* Free courses at https://dpeuniversity.gradle.com/app[dpeuniversity.gradle.com]
+* 6 Gradle courses - from Beginner to Advanced levels
+* More courses on Maven, Develocity etc...
