@@ -14,7 +14,7 @@ image::gradle/bg-4.png[background,size=cover]
 ** https://declarative.gradle.org/docs/kotlin/[Declarative Gradle for Kotlin]
 ** https://declarative.gradle.org/docs/android/[Declarative Gradle for Android]
 * GitHub Repository: https://github.com/gradle/declarative-gradle[gradle/declarative-gradle]
-* Public Roadmap: https://github.com/gradle/declarative-gradle[DRAFT]
+* Public Roadmap: https://declarative.gradle.org/ROADMAP/[DRAFT]
 
 === We need your help and feedback 🙌
 
