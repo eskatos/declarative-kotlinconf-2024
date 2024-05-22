@@ -4,29 +4,28 @@ image::kotlinconf/vote.png[background, size=cover]
 
 Don't forget to vote!
 
-[source,kotlin]
+[source,kotlin,role=speaker-info]
 ----
-​
 speaker {
-    name = "Sterling Greene"
-    company = "Gradle"
-    joined = 2014
-    currently = "Declarative Gradle"
-    previously = "JVM, Core, Native, Build Cache"
-    github = "big-guy"
-    x = "@argfile"
+  name = "Sterling Greene"
+  company = "Gradle"
+  joined = 2014
+  currently = "Declarative Gradle"
+  previously = "JVM, Core, Native, Build Cache"
+  github = "big-guy"
+  x = "@argfile"
 }
 ----
 
-[source,kotlin]
+[source,kotlin,role=speaker-info]
 ----
 speaker {
-    name = "Paul Merlin"
-    company = "Gradle"
-    joined = 2015
-    currently = "Declarative Gradle"
-    previously = "Performance, Kotlin DSL, Configuration Cache"
-    github = "eskatos"
-    mastodon = "@eskatos@mastodon.social"
+  name = "Paul Merlin"
+  company = "Gradle"
+  joined = 2015
+  currently = "Declarative Gradle"
+  previously = "Performance, Kotlin DSL, Configuration Cache"
+  github = "eskatos"
+  mastodon = "@eskatos@mastodon.social"
 }
 ----
