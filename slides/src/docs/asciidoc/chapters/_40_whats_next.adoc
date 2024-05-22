@@ -41,6 +41,9 @@ image::gradle/bg-4.png[background,size=cover]
 === What's next? [.small]#- Other IDEs#
 image::gradle/bg-4.png[background, size=cover]
 
-All features should work in major IDEs.
-
-TODO: 
+* We want all features to be available to most IDEs
+* We're working with JetBrains and Google for their IDEs
+* Our IDE team is exploring
+** LSP language server & BSP build server
+** plugins for both Eclipse/Buildship and Visual Studio Code
+* LSP & BSP should allow to add support in many other IDEs
