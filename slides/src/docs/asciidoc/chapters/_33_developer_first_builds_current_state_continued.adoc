@@ -1,4 +1,3 @@
-
 === Current prototypes [.small]#- Software definition#
 image::gradle/bg-7.png[background, size=cover]
 
@@ -7,6 +6,11 @@ image::gradle/bg-7.png[background, size=cover]
 * Wraps around existing plugins 
 * Limited configurability just to explore/experiment
 * No plugin application in project DCL files
+
+[.notes]
+--
+Speaker Sterling
+--
 
 === Current prototypes [.small]#- Reusable conventions#
 image::gradle/bg-7.png[background, size=cover]

@@ -1,3 +1,7 @@
 [background-color="#02303a"]
 == Demo
 image::gradle/bg-1.png[background, size=cover]
+[.notes]
+--
+Speaker Paul
+--

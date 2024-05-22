@@ -4,5 +4,5 @@
 image::gradle/bg-1.png[background, size=cover]
 
 [%step]
-* Who feels they need a flexible and extensible build system?
+* Who has needed a flexible and extensible build system?
 * Who has seen a complex build?

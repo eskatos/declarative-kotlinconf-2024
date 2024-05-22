@@ -5,6 +5,11 @@ image::gradle/bg-11.png[background,size=cover]
 
 Vision
 
+[.notes]
+--
+Speaker Paul
+--
+
 === Developer-first builds [.small]#- Vision#
 
 image::gradle/bg-11.png[background,size=cover]

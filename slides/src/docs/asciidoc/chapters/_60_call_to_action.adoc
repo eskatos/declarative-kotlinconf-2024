@@ -5,6 +5,11 @@ image::gradle/bg-4.png[background,size=cover]
 
 🙌
 
+[.notes]
+--
+Speaker Sterling
+--
+
 === We need your help and feedback 🙌
 
 image::gradle/bg-4.png[background,size=cover]

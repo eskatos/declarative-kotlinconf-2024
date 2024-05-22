@@ -5,6 +5,11 @@ image::gradle/bg-7.png[background, size=cover]
 Gradle is flexible and extensible +
 Drawbacks
 
+[.notes]
+--
+Speaker Sterling
+--
+
 === Challenges &#x1F525;
 image::gradle/bg-7.png[background, size=cover]
 

@@ -4,6 +4,10 @@
 image::gradle/bg-4.png[background,size=cover]
 
 🚀
+[.notes]
+--
+Speaker Paul
+--
 
 === Where do we want to go? 🚀
 
