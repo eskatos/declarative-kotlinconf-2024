@@ -29,7 +29,7 @@ and more ...
 * First EAP before summer
 * 2024-H2
 ** Alphas towards the end of the year
-** Early ecosystem plugins integrators feedback
+** Early ecosystem plugins integrator feedback
 * 2024-EOY
 ** Declarative Configuration Language Beta
 ** Software Types support Beta

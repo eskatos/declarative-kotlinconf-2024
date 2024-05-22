@@ -2,6 +2,8 @@
 === What's next? [.small]#- Software type composition#
 image::gradle/bg-4.png[background, size=cover]
 
+TODO
+
 Some reusable conventions cross software type boundaries.
 
 For example, Compose can be used by KMP or Android.
@@ -23,9 +25,7 @@ softwareTypes {
 }
 ```
 
-=== What's next? [.small]#- Other things#
+=== What's next? [.small]#- Other ecosystems#
 image::gradle/bg-4.png[background, size=cover]
 
-Support for more ecosystems and languages.
-
-All features should work in major IDEs.
+TODO: 

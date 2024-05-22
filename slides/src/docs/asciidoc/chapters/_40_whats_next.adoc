@@ -36,3 +36,11 @@ image::gradle/bg-4.png[background,size=cover]
   Reparsing declarative files is fast.
 * Errors in a declarative file don't need to be fatal to sync +
   Best effort: know what "kind" of project it is at least.
+
+
+=== What's next? [.small]#- Other IDEs#
+image::gradle/bg-4.png[background, size=cover]
+
+All features should work in major IDEs.
+
+TODO: 
