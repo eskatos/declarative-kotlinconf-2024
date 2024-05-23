@@ -61,7 +61,7 @@ image::gradle/bg-11.png[background,size=cover]
 ** Resides in plugins (local or external)
 
 
-=== Developer-first builds [.small]#- Tactics#
+=== Developer-first builds [.small]#- Tactical goals#
 
 image::gradle/bg-11.png[background,size=cover]
 
