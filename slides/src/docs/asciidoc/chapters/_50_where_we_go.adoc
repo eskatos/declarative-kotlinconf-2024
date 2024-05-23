@@ -32,13 +32,10 @@ and more ...
 
 * First EAP this summer
 ** Demonstrating what we just talked about
-** Early ecosystem plugins integrator feedback
+* Early feedback from the community
 
 * 2024-H2
 ** More EAPs towards the end of the year
-** Early software developers adopters feedback
-
-* 2024-EOY
-** Declarative Configuration Language Alpha
-** Software Types support Alpha
-** Continued feedback
+* More features
+* Addressing collected feedback
+* Further feedback from the community
