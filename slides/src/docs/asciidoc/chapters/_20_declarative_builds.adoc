@@ -33,8 +33,6 @@ But this might not be enough.
 
 [.notes]
 --
-We know what kind of thing we're building (a backend library)
-We only have to deal with our direct dependencies
-Some things are hidden
-We can slide into the other scenarios 
+* We know what kind of thing we're building (a backend library)
+* We only have to deal with our direct dependencies
 --

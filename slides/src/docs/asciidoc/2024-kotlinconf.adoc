@@ -43,3 +43,11 @@ include::chapters/_50_where_we_go.adoc[]
 include::chapters/_60_call_to_action.adoc[]
 
 include::chapters/_99_thank_you_kotlinconf.adoc[]
+
+[.notes]
+--
+* You may wonder what the relationship between this and Amper
+* Amper is an experiment with similar goals that we are also learning from to inform our development. 
+* Our approach is to greatly simplify build configuration with a focus on Software Developers and improved toolability without sacrificing any of Gradle's flexibility or scalability.
+* We're confident we can deliver on this vision and that you won't even need Amper.
+--
