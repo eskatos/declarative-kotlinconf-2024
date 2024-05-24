@@ -4,6 +4,20 @@ image::gradle/bg-7.png[background, size=cover]
 
 💪
 
+=== Overcoming challenges [.small]#- Definitions#
+
+image::gradle/bg-11.png[background,size=cover]
+
+[%step]
+* Software Definition
+** _What_ needs to be built
+** Kind of software, languages, target platforms
+** Dependencies, toolchains, quality checks etc...
+* Build Logic
+** _How_ the software will be built
+** Adds new capabilities, integrate tools
+** Supplies convention to the software definition
+
 === Overcoming challenges [.small]#- Recommendations#
 image::gradle/bg-7.png[background, size=cover]
 

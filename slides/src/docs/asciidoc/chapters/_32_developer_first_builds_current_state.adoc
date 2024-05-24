@@ -52,7 +52,11 @@ image::gradle/bg-11.png[background,size=cover]
 
 image::gradle/bg-11.png[background,size=cover]
 
-image:declarative-performance.png[]
+[.small]
+`./gradlew assemble`
+
+image:declarative-performance.png[width=80%]
+
 
 [.notes]
 --

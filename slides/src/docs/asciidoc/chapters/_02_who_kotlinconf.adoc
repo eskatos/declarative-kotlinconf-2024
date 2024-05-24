@@ -8,7 +8,7 @@ image::gradle/bg-1.png[background, size=cover]
 === Sterling & Paul
 image::gradle/bg-1.png[background, size=cover]
 
-image::sterling_paul.jpg[width=40%]
+image::sterling_paul.jpg[width=50%]
 
 [cols="<.<5,<.<5",frame=none,grid=none]
 |===

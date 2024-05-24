@@ -32,10 +32,10 @@ and more ...
 
 * First EAP this summer
 ** Demonstrating what we just talked about
-* Early feedback from the community
+** Early feedback from the community
 
 * 2024-H2
 ** More EAPs towards the end of the year
-* More features
-* Addressing collected feedback
-* Further feedback from the community
+** More features
+** Addressing collected feedback
+** Further feedback from the community

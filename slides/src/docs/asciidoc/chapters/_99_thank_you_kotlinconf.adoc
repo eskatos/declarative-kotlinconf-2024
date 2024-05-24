@@ -4,6 +4,8 @@ image::kotlinconf/vote.png[background, size=cover]
 
 Don't forget to vote!
 
+Come talk with us at our booth 🐘
+
 [source,kotlin,role=speaker-info]
 ----
 speaker {

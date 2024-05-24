@@ -39,20 +39,6 @@ image::gradle/bg-11.png[background,size=cover]
 image::gradle/bg-11.png[background,size=cover]
 
 [%step]
-* Software Definition
-** _What_ needs to be built
-** Kind of software, languages, target platforms
-** Dependencies, toolchains, quality checks etc...
-* Build Logic
-** _How_ the software will be built
-** Adds new capabilities, integrate tools
-** Supplies convention to the software definition
-
-=== Software Definition vs Build Logic
-
-image::gradle/bg-11.png[background,size=cover]
-
-[%step]
 * Software Definition - _What_ needs to be built
 ** Meant to be read and modified by Software Developers
 ** Resides in settings and projects definitions
