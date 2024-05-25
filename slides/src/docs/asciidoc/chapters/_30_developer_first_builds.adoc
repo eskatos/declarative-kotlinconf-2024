@@ -16,7 +16,6 @@ image::gradle/bg-11.png[background,size=cover]
 
 > Elegant and extensible declarative build language that allows developers to describe any kind of software in a clear and understandable way.
 
-[%step]
 * Extensible, flexible ✅
 * Declarative 😞
 * Clear and understandable 😫
@@ -26,7 +25,6 @@ image::gradle/bg-11.png[background,size=cover]
 
 image::gradle/bg-11.png[background,size=cover]
 
-[%step]
 * Software Developers - Majority in most teams
 ** [.small]#Improve software by shipping features, fixing bugs ...#
 * Build Engineers - Frequent in larger teams
@@ -38,7 +36,6 @@ image::gradle/bg-11.png[background,size=cover]
 
 image::gradle/bg-11.png[background,size=cover]
 
-[%step]
 * Software Definition - _What_ needs to be built
 ** Meant to be read and modified by Software Developers
 ** Resides in settings and projects definitions
@@ -51,7 +48,6 @@ image::gradle/bg-11.png[background,size=cover]
 
 image::gradle/bg-11.png[background,size=cover]
 
-[%step]
 * Separate software definition and build logic +
   with a declarative DSL
 * Match the software definition to the software domain

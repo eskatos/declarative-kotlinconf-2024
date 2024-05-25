@@ -17,7 +17,6 @@ image::gradle/bg-4.png[background,size=cover]
 
 and more ...
 
-[%step]
 * Pluggable mutations/refactorings
 * Excellent IDE support
 

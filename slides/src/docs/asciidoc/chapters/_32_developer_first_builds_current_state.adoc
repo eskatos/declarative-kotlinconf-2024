@@ -28,7 +28,6 @@ image::gradle/bg-11.png[background,size=cover]
 
 image::gradle/bg-11.png[background,size=cover]
 
-[%step]
 * Purely declarative
 * Small subset of the Kotlin language
 * Fast and resilient parser
@@ -38,7 +37,6 @@ image::gradle/bg-11.png[background,size=cover]
 
 image::gradle/bg-11.png[background,size=cover]
 
-[%step]
 * Get projects schemas via Gradle's Tooling API
 ** After build settings are evaluated
 ** Before configuring any project

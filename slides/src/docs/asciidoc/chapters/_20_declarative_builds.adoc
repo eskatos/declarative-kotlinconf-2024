@@ -8,7 +8,6 @@ image::gradle/bg-7.png[background, size=cover]
 
 image::gradle/bg-11.png[background,size=cover]
 
-[%step]
 * Software Definition
 ** _What_ needs to be built
 ** Kind of software, languages, target platforms
@@ -23,7 +22,6 @@ image::gradle/bg-7.png[background, size=cover]
 
 Gradle can look declarative
 
-[%step]
 * Keep build logic in plugins
 * Give your convention plugins meaningful names
 * Keep your build scripts simple - condition and loop free

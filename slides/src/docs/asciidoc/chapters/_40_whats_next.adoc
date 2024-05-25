@@ -9,7 +9,6 @@ A peak into the future
 
 image::gradle/bg-4.png[background,size=cover]
 
-[%step]
 * Gradle guided changes available from tooling and command-line
 * Integrated with IDE workflow (preview/diff, undo)
 * Provided out of the box by Gradle or registered by plugins
@@ -29,7 +28,6 @@ Examples
 
 image::gradle/bg-4.png[background,size=cover]
 
-[%step]
 * Progressively provide more context +
   instead of a monolithic sync step.
 * Avoid slow recompilation of build scripts when build logic changes. +

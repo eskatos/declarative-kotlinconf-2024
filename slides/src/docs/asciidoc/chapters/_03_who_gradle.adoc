@@ -91,11 +91,11 @@ DPE is an emerging software practice that relies on acceleration technologies an
 
 [cols="^.^2,^.^1",frame=none,grid=none]
 |===
-a|image:dpe-handbook.webp[width=35%] image:dpe-maturity-model.webp[width=35%]
+a|image:dpe-handbook.png[width=35%] image:dpe-maturity-model.png[width=35%]
 
 [.small]
 https://gradle.com/developer-productivity-engineering
-a|image::dpe-summit.webp[]
+a|image::dpe-summit.png[]
 
 [.small]
 https://dpe.org

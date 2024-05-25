@@ -2,6 +2,5 @@
 == Questions 🖐️
 image::gradle/bg-1.png[background, size=cover]
 
-[%step]
 * Who has tried to automate changing the build definition?
 * Who would like to clicky-click in a UI to understand a build and change it?
