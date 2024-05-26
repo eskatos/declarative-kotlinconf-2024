@@ -25,6 +25,8 @@ asciidoctorj {
     setVersion("2.5.3")
     fatalWarnings(missingIncludes())
     modules {
+        pdf.use()
+        pdf.version("2.3.15")
         diagram.use()
         diagram.version("2.2.1")
     }
