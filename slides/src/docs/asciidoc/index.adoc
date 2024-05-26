@@ -12,12 +12,12 @@ Gradle &#x2764; Kotlin
 
 image::logo-kotlin.svg[width=10%, align="right"]
 
-link:https://kotlinconf.com/[KotlinConf, window=_blank] [.small]#2023-04-14 +
+link:https://kotlinconf.com/[KotlinConf, window=_blank] [.small]#2024-05-24 +
 link:2024-kotlinconf.html[slides]
 -
 link:https://eskatos.github.io/declarative-kotlinconf-2024/2024-kotlinconf-declarative-gradle-slides.pdf[pdf, window=_blank]
 -
-link:https://youtu.be/88FJwx8Yf3o?t=18545[video, window=_blank]#
+link:https://youtu.be/bhb8y8cJVy0?t=958[video, window=_blank]#
 
 == About
 
