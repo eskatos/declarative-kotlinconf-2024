@@ -1,5 +1,5 @@
 [versions]
-jvm = "17"
+jvm = "21"
 
 [libraries]
 
