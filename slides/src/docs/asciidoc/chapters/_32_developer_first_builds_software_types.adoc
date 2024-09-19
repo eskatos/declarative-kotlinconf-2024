@@ -104,7 +104,7 @@ androidApplication {
 }
 ```
 
-link:https://github.com/gradle/declarative-samples-android-app/blob/main/settings.gradle.dcl[See a Declarative Android app example]
+link:https://github.com/gradle/declarative-samples-android-app/blob/main/settings.gradle.dcl[]
 
 [.notes]
 --

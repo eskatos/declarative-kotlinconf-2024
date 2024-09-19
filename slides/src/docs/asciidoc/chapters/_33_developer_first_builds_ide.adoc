@@ -14,6 +14,7 @@ image::gradle/bg-7.png[background,size=cover]
 ** Syntax highlighting and code completion
 
 video::SmHzeoQfyxo[youtube]
+link:https://youtu.be/SmHzeoQfyxo[]
 
 [.notes]
 --
@@ -27,6 +28,7 @@ image::gradle/bg-7.png[background,size=cover]
 ** Display information defined in build files and navigate back to the source
 
 video::4P0GmcmkUog[youtube]
+link:https://youtu.be/4P0GmcmkUog[]
 
 === Tooling/IDE [.small]#- Two-way tooling (cont)#
 image::gradle/bg-7.png[background,size=cover]
@@ -34,6 +36,7 @@ image::gradle/bg-7.png[background,size=cover]
 * Refactoring/mutations
 
 video::NNVvhNFS03M[youtube]
+link:https://youtu.be/NNVvhNFS03M[]
 
 [.notes]
 --
