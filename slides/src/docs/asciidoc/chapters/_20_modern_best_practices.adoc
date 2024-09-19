@@ -1,6 +1,6 @@
 [background-color="#02303a"]
 == Overcoming challenges
-image::gradle/bg-8.png[background, size=cover]
+image::gradle/bg-10.png[background, size=cover]
 
 💪
 

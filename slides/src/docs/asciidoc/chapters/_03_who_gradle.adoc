@@ -92,7 +92,6 @@ How Netflix, Google, Slack, LinkedIn and other teams do DPE?
 --
 
 === DPE University 🎓
-
 image::gradle/bg-7.png[background,size=cover]
 
 image::dpeu/cover.png[width=60%]
