@@ -1,7 +1,7 @@
 [%notitle]
 [background-color="#02303a"]
 == Developer-first builds &#x1F39B;
-image::declarative-gradle-first-eap.png[background,size=cover]
+image::declarative-gradle-second-eap.png[background,size=cover]
 
 [.notes]
 --

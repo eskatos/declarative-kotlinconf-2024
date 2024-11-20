@@ -130,6 +130,8 @@ We currently have prototype plugins that represent new configuration models for 
 === Software types [.small]#- AGP#
 image::gradle/bg-7.png[background, size=cover]
 
+The original AGP model configured declaratively
+
 ```kotlin
 androidApp {
     namespace = "my.apps.android"

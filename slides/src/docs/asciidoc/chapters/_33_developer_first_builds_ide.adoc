@@ -20,24 +20,6 @@ link:https://youtu.be/SmHzeoQfyxo[]
 Excellent IDE support is crucial.
 --
 
-=== Tooling/IDE [.small]#- Visual Studio Code#
-image::gradle/bg-7.png[background,size=cover]
-
-* Syntax highlighting, code completion and mutations
-
-++++
-<iframe src="https://fast.wistia.net/embed/iframe/8t8appyr68?seo=true&videoFoam=false" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" msallowfullscreen width="640" height="360" allow="fullscreen"></iframe>
-<script src="https://fast.wistia.net/assets/external/E-v1.js" async></script>
-++++
-
-link:https://gradleinc.wistia.com/medias/8t8appyr68[]
-link:https://gradle.github.io/declarative-vscode-extension/[]
-
-
-[.notes]
---
-Refactoring/mutations handled through Gradle/tooling is a big deal because this is hard to do on top of arbitrary build scripts.
---
 
 === Tooling/IDE [.small]#- Eclipse IDE#
 image::gradle/bg-7.png[background,size=cover]
@@ -53,10 +35,29 @@ link:https://gradleinc.wistia.com/medias/mosuja84ou[]
 link:https://github.com/eclipse/buildship/blob/master/docs/user/DeclarativeGradle.md#setup[]
 
 
+=== Tooling/IDE [.small]#- Visual Studio Code#
+image::gradle/bg-7.png[background,size=cover]
+
+* Syntax highlighting, code completion and mutations
+
+++++
+<iframe src="https://fast.wistia.net/embed/iframe/8t8appyr68?seo=true&videoFoam=false" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" msallowfullscreen width="640" height="360" allow="fullscreen"></iframe>
+<script src="https://fast.wistia.net/assets/external/E-v1.js" async></script>
+++++
+
+link:https://gradleinc.wistia.com/medias/8t8appyr68[]
+link:https://gradle.github.io/declarative-vscode-extension/[]
+
+[.notes]
+--
+Refactoring/mutations handled through Gradle/tooling is a big deal because this is hard to do on top of arbitrary build scripts.
+--
+
 [.notes]
 --
 The LSP backing is can also be used in other IDEs, we tried Helix :)
 --
+
 
 === Tooling/IDE [.small]#- Two-way tooling#
 image::gradle/bg-7.png[background,size=cover]
