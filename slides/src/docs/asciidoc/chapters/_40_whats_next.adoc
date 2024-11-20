@@ -19,9 +19,12 @@ image::gradle/bg-7.png[background,size=cover]
 image::gradle/bg-7.png[background,size=cover]
 
 * Third EAP scheduled for February 2025
-** Declarative Gradle can be used by early adopters for simple projects
-** Validating the Software Types approach for Composability and Extensibility
-** More DCL features to support the official Android Software Type
+** Declarative Gradle can be used by early adopters +
+   for simple projects
+** Validating the Software Types approach for +
+   Composability and Extensibility
+** More DCL features to support the official +
+   AGP Software Type
 ** Discovery work on the migration of existing builds
 
 === What's next? [.small]#- Roadmap (cont.)#
@@ -33,21 +36,32 @@ image::gradle/bg-7.png[background,size=cover]
   https://declarative.gradle.org/docs/ROADMAP/
 
 
-=== What's next? [.small]#- Early adopters#
+=== What's next? [.small]#- EAP 3#
 image::gradle/bg-7.png[background,size=cover]
 
-TODO
+**Declarative Gradle can be used by early adopters +
+for simple projects**
+
+* Add support for testing to our prototype plugins
+* More DCL features to support the official AGP Software Type
 
 [.notes]
 --
 --
 
-=== What's next? [.small]#- Composability#
+=== What's next? [.small]#- EAP 3#
 image::gradle/bg-7.png[background,size=cover]
 
-* Composability and extensibility very important for build engineers
-** Expect each build will have a small number of software types
-** Additional, optional features can be "mixed-in" to a software type
+**Validating the Software Types approach +
+for Composability and Extensibility**
+
+* Supporting new software features that are not part +
+  of the base software type
+* Plugins can contribute to the build-logic and declarative model
+* Additional, optional features can be "mixed-in" +
+  to a software type
+* Adding/configuring code quality checks
+* Adding/configuring source-generation/bytecode-manipulation
 
 [.notes]
 --
@@ -58,21 +72,30 @@ How this works is to be designed.
 ** Defaults for Compose/Hilt can be defined and reused across software types
 --
 
-=== What's next? [.small]#- DCL features#
+=== What's next? [.small]#- EAP 3#
 image::gradle/bg-7.png[background,size=cover]
 
-TODO
+**More DCL features to support the official AGP Software Type**
+
+* File and directory properties
+* Multi-valued properties (Lists, Maps)
+* Container defaults
 
 [.notes]
 --
 --
 
-=== What's next? [.small]#- Migrations#
+=== What's next? [.small]#- EAP 3#
 image::gradle/bg-7.png[background,size=cover]
 
-* You can mix imperative and declarative in a build
-* Software-types will be usable from imperative DSLs
-* You can define defaults in settings and apply them in DCL/non-DCL files
+**Discovery work on the migration of existing builds**
+
+* Do migrations ourselves to discover the process
+** Make things easier on the migration path
+** Identify steps that can be automated
+* You can mix imperative DSLs and declarative in a build
+* You can define defaults in settings and apply them +
+  in DCL/non-DCL files
 * Gradle imperative DSLs don't go away
 
 [.notes]
@@ -87,8 +110,3 @@ Open questions:
 ** Same programming/annotation model as project extensions/tasks
 ** Possibility to reuse existing project extensions
 --
-
-=== What's next? [.small]#- Other#
-image::gradle/bg-7.png[background, size=cover]
-
-TODO
