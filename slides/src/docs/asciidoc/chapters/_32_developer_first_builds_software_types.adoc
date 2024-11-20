@@ -118,11 +118,35 @@ image::gradle/bg-7.png[background, size=cover]
 ** Creates a software type for the ecosystem
 ** Wraps around existing plugins 
 ** Intention is to discard the prototypes 
-* Software types for Android will be provided by the Android Gradle Plugin (AGP) soon
+* Android Gradle Plugin (AGP) preview of Software Types available
 ** Reuses existing `android` project extensions as software types
 
 [.notes]
 --
-as mentioned in the blog post/first EAP.
+as mentioned in the blog post/second EAP.
 We currently have prototype plugins that represent new configuration models for KMP, JVM and Android.
 --
+
+=== Software types [.small]#- AGP#
+image::gradle/bg-7.png[background, size=cover]
+
+```kotlin
+androidApp {
+    namespace = "my.apps.android"
+    compileSdk = 35
+    defaultConfig {
+        minSdk = 29
+        targetSdk = 35
+        testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
+    }
+    compileOptions {
+        sourceCompatibility = VERSION_17
+        targetCompatibility = VERSION_17
+    }
+    buildTypes {
+        buildType("release") {
+            isMinifyEnabled = true
+        }
+    }
+}
+```

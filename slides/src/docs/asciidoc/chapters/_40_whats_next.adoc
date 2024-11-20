@@ -8,28 +8,38 @@ A peak into the future
 image::gradle/bg-7.png[background,size=cover]
 
 * First EAP released in July
-** See blog post
-** Some feedback from the community
-* Second EAP (October)
-** AGP integration 
-** Composability experiments
-** Another round of community feedback
-* Third EAP around end of year
-** Content to be determined
+* Second EAP released in November
+** AGP integration
+** Software Types in KTS
+** More IDE support
+** Generating declarative builds
 
-=== What's next? [.small]#- Android support#
+
+=== What's next? [.small]#- Roadmap (cont.)#
 image::gradle/bg-7.png[background,size=cover]
 
-* Working with Android to get Android Gradle Plugin (AGP) extensions into DCL
-* Simple things will "just work"
-* AGP extensions will be enhanced to support DCL in some cases
-* DCL will have new features to support existing AGP extensions
+* Third EAP scheduled for February 2025
+** Declarative Gradle can be used by early adopters for simple projects
+** Validating the Software Types approach for Composability and Extensibility
+** More DCL features to support the official Android Software Type
+** Discovery work on the migration of existing builds
+
+=== What's next? [.small]#- Roadmap (cont.)#
+image::gradle/bg-7.png[background,size=cover]
+
+* Incubating Software Types and DCL in 2025
+* Stable Software Types and DCL in 2026
+* Details in the public roadmap +
+  https://declarative.gradle.org/docs/ROADMAP/
+
+
+=== What's next? [.small]#- Early adopters#
+image::gradle/bg-7.png[background,size=cover]
+
+TODO
 
 [.notes]
 --
-Need work for
-** Named domain object containers
-** Enums
 --
 
 === What's next? [.small]#- Composability#
@@ -46,6 +56,15 @@ How this works is to be designed.
 * e.g., `androidApplication` does not need Compose or Hilt built-in
 ** Enabling compose applies the appropriate plugin and adds to the software type
 ** Defaults for Compose/Hilt can be defined and reused across software types
+--
+
+=== What's next? [.small]#- DCL features#
+image::gradle/bg-7.png[background,size=cover]
+
+TODO
+
+[.notes]
+--
 --
 
 === What's next? [.small]#- Migrations#
@@ -72,8 +91,4 @@ Open questions:
 === What's next? [.small]#- Other#
 image::gradle/bg-7.png[background, size=cover]
 
-* Our IDE team is exploring
-** LSP language server & BSP build server
-** plugins for both Eclipse/Buildship and Visual Studio Code
-* `gradle init` will soon support generating example builds using DCL
-
+TODO

@@ -111,12 +111,13 @@ We want tooling to be just as good/better.
 image::gradle/bg-7.png[background,size=cover]
 
 * These are _experiments_ and require bleeding edge/nightly builds. 
-* IDE features require special Android Studio nightly builds.
+* IDE features require special nightly builds of +
+  IDEs, extensions and plugins.
 * Some IDE-like features are demonstrated outside the IDE. 
 * Prototypes are changing all the time and are not ready for production use.
 
 === Developer-first builds [.small]#- Experiments#
 image::gradle/bg-7.png[background,size=cover]
 
-* Software types
 * Declarative Configuration Language with integrated tooling
+* Software Types for declarative models

@@ -23,21 +23,21 @@ Reusing Kotlin leaves open the opportunity to converge
 * two languages, but shared tooling
 --
 
-=== Developer-first builds [.small]#- Performance#
-image::gradle/bg-7.png[background,size=cover]
-
-[.small]
-`./gradlew assemble`
-
-image:declarative-performance.png[width=80%]
-
-
-[.notes]
---
-This is to be taken with a grain of salt because while we will make things slower by adding features and correctness, we have not optimized yet, and we know we can make things faster.
-
-This gives us a baseline and will help manage the Declarative DSL performance characteristics as we evolve the implementation.
---
+// === Developer-first builds [.small]#- Performance#
+// image::gradle/bg-7.png[background,size=cover]
+//
+// [.small]
+// `./gradlew assemble`
+//
+// image:declarative-performance.png[width=80%]
+//
+//
+// [.notes]
+// --
+// This is to be taken with a grain of salt because while we will make things slower by adding features and correctness, we have not optimized yet, and we know we can make things faster.
+//
+// This gives us a baseline and will help manage the Declarative DSL performance characteristics as we evolve the implementation.
+// --
 
 === Developer-first builds [.small]#- Performance#
 image::gradle/bg-7.png[background,size=cover]
@@ -45,6 +45,7 @@ image::gradle/bg-7.png[background,size=cover]
 * Inherently faster
 ** `.gradle.dcl` does not rely on Kotlin compiler 
 ** DCL is a configuration language, not a programming language
+** Current performance is: faster than Groovy DSL
 
 === Developer-first builds [.small]#- Example#
 image::gradle/bg-7.png[background,size=cover]

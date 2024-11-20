@@ -1,0 +1,20 @@
+[background-color="#02303a"]
+== Generating Declarative Builds ✨
+image::gradle/bg-10.png[background, size=cover]
+
+[.notes]
+--
+
+--
+
+=== Generating Declarative Builds
+image::gradle/bg-7.png[background,size=cover]
+
+We extended `gradle init` so it can generate declarative builds
+
+++++
+<iframe src="https://fast.wistia.net/embed/iframe/nm3eq4b7jj?seo=true&videoFoam=false" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" msallowfullscreen width="640" height="360" allow="fullscreen"></iframe>
+<script src="https://fast.wistia.net/assets/external/E-v1.js" async></script>
+++++
+
+link:https://gradleinc.wistia.com/medias/nm3eq4b7jj[]

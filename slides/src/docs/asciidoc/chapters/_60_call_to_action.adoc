@@ -12,8 +12,11 @@ image::gradle/bg-5.png[background,size=cover]
 === CTA [.small]#- We need your help and feedback 🙌#
 image::gradle/bg-5.png[background,size=cover]
 
-* Read link:https://blog.gradle.org/declarative-gradle-first-eap[]
-* Visit link:https://declarative.gradle.org[declarative.gradle.org] 
-* Join https://gradle.org/slack-invite[] +
-  [.small]#`#declarative-gradle`#
-* Fill out link:https://community.gradle.org/surveys/developer-survey[]
+* Read +
+  link:https://blog.gradle.org/declarative-gradle-november-2024-update[]
+* Visit +
+  link:https://declarative.gradle.org[declarative.gradle.org]
+* Join [.small]#`#declarative-gradle`# +
+  https://gradle.org/slack-invite[]
+* Fill out +
+  link:https://community.gradle.org/surveys/developer-survey[]

@@ -30,6 +30,8 @@ include::chapters/_31_developer_first_builds_dcl.adoc[]
 
 include::chapters/_33_developer_first_builds_ide.adoc[]
 
+include::chapters/_34_developer_first_builds_init.adoc[]
+
 include::chapters/_40_whats_next.adoc[]
 
 include::chapters/_60_call_to_action.adoc[]
