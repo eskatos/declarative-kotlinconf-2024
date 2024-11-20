@@ -119,5 +119,5 @@ image::gradle/bg-7.png[background,size=cover]
 === Developer-first builds [.small]#- Experiments#
 image::gradle/bg-7.png[background,size=cover]
 
-* Declarative Configuration Language with integrated tooling
 * Software Types for declarative models
+* Declarative Configuration Language with integrated tooling

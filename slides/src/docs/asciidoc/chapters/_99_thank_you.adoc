@@ -1,5 +1,3 @@
-[%notitle]
 [background-color="#02303a"]
 == Thank you!
-
-image::qrcode-developer-survey.png[background, size=cover]
+image::gradle/bg-8.png[background, size=cover]

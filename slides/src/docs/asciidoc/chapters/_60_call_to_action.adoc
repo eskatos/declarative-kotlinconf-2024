@@ -18,5 +18,5 @@ image::gradle/bg-5.png[background,size=cover]
   link:https://declarative.gradle.org[declarative.gradle.org]
 * Join [.small]#`#declarative-gradle`# +
   https://gradle.org/slack-invite[]
-* Fill out +
-  link:https://community.gradle.org/surveys/developer-survey[]
+* Fill out our feedback form +
+  link:https://declarative.gradle.org/docs/feedback/[]

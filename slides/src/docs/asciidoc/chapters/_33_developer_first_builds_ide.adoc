@@ -42,7 +42,7 @@ Refactoring/mutations handled through Gradle/tooling is a big deal because this 
 === Tooling/IDE [.small]#- Eclipse IDE#
 image::gradle/bg-7.png[background,size=cover]
 
-* Syntax highlighting, code completion and mutations
+* Syntax highlighting and code completion
 
 ++++
 <iframe src="https://fast.wistia.net/embed/iframe/mosuja84ou?seo=true&videoFoam=false" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" msallowfullscreen width="640" height="360" allow="fullscreen"></iframe>
