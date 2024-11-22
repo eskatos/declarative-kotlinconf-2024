@@ -37,3 +37,40 @@ include::chapters/_40_whats_next.adoc[]
 include::chapters/_60_call_to_action.adoc[]
 
 include::chapters/_99_thank_you.adoc[]
+
+//
+//
+//
+// will we ship this?
+//
+// stay positive
+//
+// commited to developer-centric, ide experience
+// varying degree of maturity
+// things may change
+//
+// validating composability/extensibility february
+// if we don't figure it out by then in a way that seems acceptable
+// then we will have to go back to the drawing board
+//
+// we're proud of what we provide but
+// hard learning curve
+// it's too easy to make a mess
+//
+//
+// .dcl extension
+// do not say "for now it's a different extension but..."
+// say we have options
+//
+// Amper: we don't work with them, we stay in touch
+//
+//
+// -----
+//
+// Notes from Piotr
+//
+// Here are my notes:
+// Tone done “One of the teams we work with is Amper”
+// Clear and understandable “meh” -> too easy too make a mess
+// Note down the response about relationship with Amper
+//

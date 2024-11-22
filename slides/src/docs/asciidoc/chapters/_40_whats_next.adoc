@@ -11,8 +11,19 @@ image::gradle/bg-7.png[background,size=cover]
 * Second EAP released in November
 ** AGP integration
 ** Software Types in KTS
-** More IDE support
+** Experimental support for more IDEs
 ** Generating declarative builds
+
+
+=== What's next? [.small]#- Roadmap (cont.)#
+image::gradle/bg-7.png[background,size=cover]
+
+A few words of caution from our lawyers 😉
+
+> The information contained in this Declarative Gradle Roadmap (the "Roadmap") is intended to outline our general product direction, which is subject to change at any time.
+> The content provided in this Roadmap is provided for informational purposes only and is not a commitment, promise or legal obligation to deliver any material, code, or functionality and should not be relied upon in making purchasing or other decisions.
+The development, release and timing of any features or functionality described in this Roadmap remains at the sole discretion of Gradle, Inc.
+> Product capabilities, timeframes and features are subject to change and should not be viewed as commitments.
 
 
 === What's next? [.small]#- Roadmap (cont.)#
@@ -93,10 +104,10 @@ image::gradle/bg-7.png[background,size=cover]
 * Do migrations ourselves to discover the process
 ** Make things easier on the migration path
 ** Identify steps that can be automated
-* You can mix imperative DSLs and declarative in a build
+* You can mix existing DSLs and DCL in the same build
 * You can define defaults in settings and apply them +
   in DCL/non-DCL files
-* Gradle imperative DSLs don't go away
+* Gradle existing DSLs don't go away
 
 [.notes]
 --
@@ -110,3 +121,22 @@ Open questions:
 ** Same programming/annotation model as project extensions/tasks
 ** Possibility to reuse existing project extensions
 --
+
+=== What's next? [.small]#- Overview#
+image::gradle/bg-7.png[background,size=cover]
+
+[cols="<4,^1,>2", frame=none, grid=rows]
+|===
+
+h|Milestone
+h|
+h| Date
+
+|First Early Access Preview (EAP)|✅|July 2024
+|Second Early Access Preview (EAP 2)|✅|November 2024
+|Third Early Access Preview (EAP 3)|🏗️|February 2025
+|Incubating Software Types and DCL|⏳|2025
+|Stable Software Types and DCL|⏳|2026
+|===
+
+https://declarative.gradle.org/docs/ROADMAP/
